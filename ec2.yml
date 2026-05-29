@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'CloudFormation template to create an EC2 instance with hardcoded values.'
+Description: 'create an EC2 instance'
 
 Resources:
   MyEC2Instance:
@@ -10,4 +10,4 @@ Resources:
       InstanceType: 't3.micro'
       Tags:
         - Key: Name
-          Value: MyStaticInstance
+          Value: MyInstance

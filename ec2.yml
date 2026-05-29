@@ -6,7 +6,7 @@ Resources:
     Type: 'AWS::EC2::Instance'
     Properties:
       # Replace with a valid AMI ID for your specific AWS Region
-      ImageId: 'ami-00e801948462f718a' 
+      ImageId: 'ami-07a00cf47dbbc844c' 
       InstanceType: 't3.micro'
       Tags:
         - Key: Name

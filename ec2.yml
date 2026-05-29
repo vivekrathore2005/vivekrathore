@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'CloudFormation template to create an EC2 instance with hardcoded values.'
+
+Resources:
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      # Replace with a valid AMI ID for your specific AWS Region
+      ImageId: 'ami-00e801948462f718a' 
+      InstanceType: 't3.micro'
+      Tags:
+        - Key: Name
+          Value: MyStaticInstance

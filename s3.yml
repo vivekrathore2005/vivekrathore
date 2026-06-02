@@ -5,7 +5,7 @@ Resources:
   MyS3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName:s3demo # must be globally unique
+      BucketName: mys3store # must be globally unique
       VersioningConfiguration:
         Status: Enabled
       AccessControl: Private

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Create an S3
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName:s3demo # must be globally unique
+      VersioningConfiguration:
+        Status: Enabled
+      AccessControl: Private
